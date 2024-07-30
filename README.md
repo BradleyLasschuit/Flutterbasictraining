@@ -2,6 +2,11 @@
 
 [A new Flutter project.](https://www.youtube.com/watch?v=VPvVD8t02U8)
 
+https://dart.dev/language/keywords
+https://dart.dev/language/built-in-types
+https://dart.dev/null-safety
+https://api.dart.dev/stable/3.4.4/dart-core/Map-class.html
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
