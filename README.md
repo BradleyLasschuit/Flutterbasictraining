@@ -1,6 +1,6 @@
 # flutter_application_training
 
-A new Flutter project.
+[A new Flutter project.](https://www.youtube.com/watch?v=VPvVD8t02U8)
 
 ## Getting Started
 
