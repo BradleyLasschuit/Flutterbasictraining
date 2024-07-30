@@ -1,15 +1,53 @@
 import 'package:flutter/material.dart';
 
+const age = 27;
+const twiceTheAge = age * 2;
+var name = 'fruit';
+
+// 2 ways of writing the same function
+String getFullName(String firstName,String lastName){
+  return '$firstName $lastName' ;
+}
+String getbothNames(String firstName,String lastName) =>
+ '$firstName $lastName' ;
+
 void main() {
   runApp(const MyApp());
+}
+
+void test(){
+  var age = 20;
+  var name = 'Foo';
+  final halfOfAge = age / 2;
+  final doubleTheAge = age * 2;
+  final ageMinusOne = --age;
+  final nameTimes300 = name * 300;
+  // print(ageMinusOne);
+  // print(doubleTheAge);
+  // print(halfOfAge);
+  // print(nameTimes300);
+}
+
+void test2(){
+  var person = {
+    'age':20,
+    'name': 'Foo',
+    };
+
+  print(person);
+  person['name'] = 'Foo';
+  print(person);
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  // This widget is the root of your application.c
   @override
   Widget build(BuildContext context) {
+    print(getFullName('Buck', "lastName"));
+    test();
+    test2();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
