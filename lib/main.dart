@@ -4,21 +4,26 @@ void main() {
   runApp(const MyApp());
 }
 
-void test(String? firstName, String? middleName, String? lastName){
 
-  String? name = firstName;
-  name ??= middleName;
-  print(name);
+class Cat {
+  final String name;
+  Cat(this.name);
 }
 
+
+
+void test() {
+  final meow = Cat('Fluffers');
+  print(meow.name);
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.c
+  // This widget is the root of your application.c 
   @override
   Widget build(BuildContext context) {
-    test(null, 'Bar', 'Bar');
+    test();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
